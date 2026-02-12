@@ -35,7 +35,7 @@ const images=[
 setInterval(()=>{
 const imagesRandom=Math.floor(Math.random()*images.length);
   setcurrentImage(imagesRandom);
-},1000)
+},3000)
   },[]);
 
   return (
